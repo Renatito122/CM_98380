@@ -37,6 +37,26 @@ class MainActivity : AppCompatActivity() {
         onDialStringChange()
     }
 
+    fun addPlus(view: View) {
+        val clickedButton = view as Button
+        val buttonText = clickedButton.text.toString()
+        val plus = "+"
+        if (buttonText == plus) {
+            dialerString += buttonText
+        }
+        onDialStringChange()
+    }
+
+    fun addHash(view: View) {
+        val clickedButton = view as Button
+        val buttonText = clickedButton.text.toString()
+        val hash = "#"
+        if (buttonText == hash) {
+            dialerString += buttonText
+        }
+        onDialStringChange()
+    }
+
     fun deleteNumber(view: View?) {
         if (dialerString!!.isEmpty()) return
         dialerString = dialerString!!.substring(0, dialerString!!.length - 1)
