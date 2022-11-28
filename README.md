@@ -1,7 +1,7 @@
-# TQS_98380
-Teste e Qualidade de Software 2021/22
+# CM_98380
+Computação Móvel 2022/23
 
-Repository with the practical labs of Software Testing and Quality Control
+Repository with the practical labs of Mobile Computing
 
 ## Authors
 
